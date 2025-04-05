@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #0f172a;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 4rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+}
+
+.footer-link {
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #38bdf8;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #64748b;
+}

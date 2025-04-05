@@ -1,0 +1,17 @@
+.container{
+  
+  min-width: 100%;
+}
+
+.profile-name{
+  color: rgb(2, 9, 15);
+}
+
+.card-details
+{
+  width: 18rem;
+}
+
+.card-box{
+  justify-content: center;
+}
