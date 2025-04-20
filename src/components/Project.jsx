@@ -57,7 +57,7 @@ const Project = () => {
               movies. Built with Expo, TMDB API, and Appwrite.
             </p>
             <a
-              href="https://github.com/your-username/phnx-movie-app"
+              href="https://github.com/Atanu690/PHNX-MOVIE-APP-"
               target="_blank"
               rel="noopener noreferrer"
             >
