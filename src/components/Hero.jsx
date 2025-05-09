@@ -3,7 +3,7 @@ import atanu_photo from "../assets/atanu_photo.png";
 import twittericon from "../assets/twitter-light.svg";
 import githubicon from "../assets/github-light.svg";
 import Linkedinicon from "../assets/linkedin-light.svg";
-import CV from "../assets/cv.pdf";
+import CV2 from "../assets/cv2.pdf";
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
             role in your company and want to implement my skills and knowledge
             to provide innovative solutions and growth for my company.
           </p>
-          <a href={CV} download>
+          <a href={CV2} download>
             <button className={styles.hoover}>Resume</button>
           </a>
         </span>

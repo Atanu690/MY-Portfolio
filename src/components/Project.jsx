@@ -1,7 +1,8 @@
 import styles from "./Project.module.css";
 import myntraImage from "../assets/myntra.png";
 import delicazyImage from "../assets/delicazy.png";
-import phnxImage from "../assets/movie ss.jpg"
+import phnxImage from "../assets/movie ss.jpg";
+import chatImage from "../assets/project ss.png"
 
 const Project = () => {
   return (
@@ -62,6 +63,24 @@ const Project = () => {
               rel="noopener noreferrer"
             >
               <button className={styles.button}>View Code</button>
+            </a>
+          </div>
+        </div>
+        <div
+          className={styles.card}
+          style={{ backgroundImage: `url(${chatImage})` }}
+        >
+          <div className={styles.overlay}>
+            <h3 className={styles.cardTitle}>CHATTY</h3>
+            <p className={styles.cardText}>
+              It is a realtime chat app developed by using MERN and Socket.io.
+            </p>
+            <a
+              href="https://chatty-chat-app-gjvg.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.button}>View Site</button>
             </a>
           </div>
         </div>
